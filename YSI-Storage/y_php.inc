@@ -63,12 +63,12 @@ Variables:
 
 #include <a_http>
 
-#include "..\YSI-Core\y_utils"
-#include "..\YSI-Internal\y_funcinc"
-#include "..\YSI-Core\y_debug"
-#include "..\YSI-Coding\y_timers"
-#include "..\YSI-Core\y_master"
-#include "..\YSI-Coding\y_hooks"
+#include "..\YSI_Core\y_utils"
+#include "..\YSI_Internal\y_funcinc"
+#include "..\YSI_Core\y_debug"
+#include "..\YSI_Coding\y_timers"
+#include "..\YSI_Core\y_master"
+#include "..\YSI_Coding\y_hooks"
 
 #if !defined PHP_RECEIVE || !defined PHP_SEND
 	#error You must define PHP_RECEIVE and PHP_SEND before including y_php.
